@@ -1,0 +1,4 @@
+AppointmentID,PatientID,ClinicianID,Date,Time,Status
+A001,P001,C001,2025-01-10,10:00,Scheduled
+A002,P002,C002,2025-01-11,14:00,Completed
+A003,P003,C003,2025-01-12,09:00,Scheduled

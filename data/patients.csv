@@ -1,0 +1,4 @@
+PatientID,Name,Age,Gender,ContactNumber,Address,MedicalHistory
+P001,Ahmed Khan,45,Male,03001234567,Lahore,Diabetes
+P002,Fatima Ali,32,Female,03009876543,Karachi,Hypertension
+P003,Hassan Raza,28,Male,03451234567,Islamabad,Asthma
