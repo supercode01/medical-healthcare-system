@@ -1,0 +1,20 @@
+===============================================
+         MEDICAL REFERRAL NOTIFICATION
+===============================================
+
+Referral ID: REF0001
+Date & Time: 2026-01-06 21:41:05
+
+TO: Clinician e0980332
+FROM: Clinician 239820398
+
+PATIENT INFORMATION:
+- Patient ID: 121
+- Patient Name: Ali
+
+REFERRAL REASON:
+hifkjdls
+
+Please review this referral and schedule an appointment at your earliest convenience.
+
+===============================================
