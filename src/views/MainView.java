@@ -106,7 +106,7 @@ public class MainView extends JFrame {
         btn.setFont(new Font("Arial", Font.BOLD, 14));
         btn.setFocusPainted(false);
         btn.setBackground(new Color(52, 152, 219));
-        btn.setForeground(Color.WHITE);
+        btn.setForeground(Color.BLACK);
         btn.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         btn.setCursor(new Cursor(Cursor.HAND_CURSOR));
         

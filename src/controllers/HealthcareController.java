@@ -177,11 +177,11 @@ public class HealthcareController {
     // ========== REFERRAL OPERATIONS (Using Singleton) ==========
     
     public void createReferral(String patientID, String patientName,
-                              String fromClinicianID, String toClinicianID, 
-                              String reason) {
+        String fromClinicianID, String toClinicianID, 
+        String reason) {
         Referral referralManager = Referral.getInstance();
         referralManager.addReferral(patientID, patientName, fromClinicianID, 
-                                   toClinicianID, reason);
+        toClinicianID, reason);
         
         // Generate email file for the latest referral
         List<Referral.ReferralData> referrals = referralManager.getAllReferrals();
@@ -191,6 +191,6 @@ public class HealthcareController {
     }
     
     public List<Referral.ReferralData> getAllReferrals() {
-        return Referral.getInstance().getAllReferrals();
+    return Referral.getInstance().getAllReferrals();
     }
 }

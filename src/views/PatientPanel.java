@@ -195,7 +195,7 @@ public class PatientPanel extends JPanel {
         JButton btn = new JButton(text);
         btn.setFont(new Font("Arial", Font.BOLD, 12));
         btn.setBackground(color);
-        btn.setForeground(Color.WHITE);
+        btn.setForeground(Color.BLACK);
         btn.setFocusPainted(false);
         btn.setCursor(new Cursor(Cursor.HAND_CURSOR));
         return btn;

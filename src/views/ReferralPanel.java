@@ -8,14 +8,14 @@ import java.awt.*;
 import java.util.List;
 
 public class ReferralPanel extends JPanel {
-    private HealthcareController controller;
-    private JTable table;
-    private DefaultTableModel tableModel;
+private HealthcareController controller;
+private JTable table;
+private DefaultTableModel tableModel;
     
-    public ReferralPanel(HealthcareController controller) {
-        this.controller = controller;
-        setLayout(new BorderLayout(10, 10));
-        setBackground(Color.WHITE);
+public ReferralPanel(HealthcareController controller) {
+    this.controller = controller;
+    setLayout(new BorderLayout(10, 10));
+    setBackground(Color.WHITE);
         setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
         
         JLabel titleLabel = new JLabel("Referral Management (Singleton Pattern)");
@@ -166,7 +166,7 @@ public class ReferralPanel extends JPanel {
         JButton btn = new JButton(text);
         btn.setFont(new Font("Arial", Font.BOLD, 12));
         btn.setBackground(color);
-        btn.setForeground(Color.WHITE);
+        btn.setForeground(Color.BLACK);
         btn.setFocusPainted(false);
         btn.setCursor(new Cursor(Cursor.HAND_CURSOR));
         return btn;
